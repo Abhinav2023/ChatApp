@@ -72,7 +72,7 @@ messageListener = () => {
 componentDidMount() {
     this.getUser();
     this.messageListener();
-    // chat.joinGroup(this.GUID)
+     chat.joinGroup(this.GUID)
   }
 render() {
     const { isAuthenticated } = this.state;
